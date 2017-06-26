@@ -1,0 +1,24 @@
+{
+  "name": "node-currency",
+  "version": "1.0.0",
+  "description": "A node.js project to create a currency converter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubenv/node-currency.git"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "node"
+  ],
+  "author": "reuben varzea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reubenv/node-currency/issues"
+  },
+  "homepage": "https://github.com/reubenv/node-currency#readme"
+}
