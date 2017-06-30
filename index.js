@@ -1,4 +1,10 @@
 const argv = require('yargs').argv
 const currency = require('./currency');
 
-currency.getCurrencies();
+if (argv.currencies) {
+    currency.getCurrencies();
+};
+
+if (argv.from && argv.to) {
+    currency.exchangeRate(argv.from, argv.to);
+};
